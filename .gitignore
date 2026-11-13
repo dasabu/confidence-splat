@@ -1,0 +1,17 @@
+.agents
+.codex
+
+# Large local datasets prepared for experiments. Keep the reproducible
+# inventory and documentation, but never add the image/SfM payload to Git.
+mmaction2
+data
+
+# Generated experiment workspaces, checkpoints, guidance frames, renderings,
+# and metrics. Reproducible scripts, source, tests, and documentation stay tracked.
+output/
+build/
+
+# Local Python bytecode (the upstream checkout already tracks a few historical
+# cache files; this prevents new ones from being added).
+__pycache__/
+*.py[cod]
